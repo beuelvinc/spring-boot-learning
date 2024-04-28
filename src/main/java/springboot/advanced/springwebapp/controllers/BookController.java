@@ -1,12 +1,13 @@
 package springboot.advanced.springwebapp.controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import springboot.advanced.springwebapp.services.BookService;
 
-@RestController
+@Controller
 public class BookController {
 
     private final BookService bookService;
