@@ -1,10 +1,10 @@
-package springboot.advanced.springwebapp;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringWebappApplicationTests {
+class RestMvcApplicationTests {
 
 	@Test
 	void contextLoads() {

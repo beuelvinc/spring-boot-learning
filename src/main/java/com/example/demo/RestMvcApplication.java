@@ -1,13 +1,13 @@
-package springboot.advanced.springwebapp;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringWebappApplication {
+public class RestMvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringWebappApplication.class, args);
+		SpringApplication.run(RestMvcApplication.class, args);
 	}
 
 }
