@@ -1,4 +1,4 @@
-package guru.springframework.spring6restmvc.controller;
+package com.example.demo.controller;
 
 import com.example.demo.model.Customer;
 import com.example.demo.service.CustomerService;
