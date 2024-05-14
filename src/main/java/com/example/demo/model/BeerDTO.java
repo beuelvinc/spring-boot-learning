@@ -8,7 +8,7 @@ import java.util.UUID;
 
 
 @Builder
-public class Beer {
+public class BeerDTO {
     private UUID id;
     private Integer version;
     private String beerName;
@@ -93,8 +93,8 @@ public class Beer {
 
     public boolean equals(final Object o) {
         if (o == this) return true;
-        if (!(o instanceof Beer)) return false;
-        final Beer other = (Beer) o;
+        if (!(o instanceof BeerDTO)) return false;
+        final BeerDTO other = (BeerDTO) o;
         if (!other.canEqual((Object) this)) return false;
         final Object this$id = this.getId();
         final Object other$id = other.getId();
@@ -130,7 +130,7 @@ public class Beer {
     }
 
     protected boolean canEqual(final Object other) {
-        return other instanceof Beer;
+        return other instanceof BeerDTO;
     }
 
     public int hashCode() {
